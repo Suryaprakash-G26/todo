@@ -6,7 +6,7 @@ export default function Filter({ initialTaskdata, taskdata, settaskdata }) {
     if (selectedValue === 'All') {
       settaskdata(initialTaskdata);
     } else {
-      const filteredData = initialTaskdata.filter((info) => info.status === selectedValue);
+      const filteredData = taskdata.filter((info) => info.status === selectedValue);
       settaskdata(filteredData);
     }
   };
