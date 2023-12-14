@@ -13,7 +13,6 @@ todo app in which we can Store the Task list it contains Full Crud Functionality
 - React.js for building the frontend
 - Redux for state management
 - React Router for routing
-- Formik and Yup for form handling and validation
 
 
 ## Getting Started
